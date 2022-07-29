@@ -178,10 +178,6 @@ body{
         display: none;
     }
 
-    #numTxt .text-primary{
-        font-size: 12px;
-    }
-
     #numTxt{
         display: flex;
         align-items: center;
@@ -193,6 +189,11 @@ body{
         align-items: center;
         margin-left: 3.5rem;
         margin-bottom: 10px;
+        line-height: 1rem;
+    }
+
+    #numTxt .text-primary{
+        font-size: 12px;
     }
 }
 
@@ -223,6 +224,7 @@ body{
         margin-left: 45px;
         align-items: center;
         margin-bottom: 20px;
+        line-height: 1.3rem;
     }
 
     #numTxt .text-primary{
