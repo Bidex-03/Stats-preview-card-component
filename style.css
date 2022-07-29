@@ -70,6 +70,9 @@ body{
 /* Img@media query */
 
 @media screen and (max-width: 375px){
+    body{
+        overflow: hidden;
+    }
     #container{
         display: flex;
         flex-direction: column;
@@ -168,7 +171,7 @@ body{
     body{
         overflow: hidden;
     }
-    
+
     .info{
         padding: 40px;
     }
@@ -203,6 +206,10 @@ body{
 
 
 @media screen and (max-width: 425px) {
+    body{
+        overflow: hidden;
+    }
+
     .info{
         padding: 30px;
     }
